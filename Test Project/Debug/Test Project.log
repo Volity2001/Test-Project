@@ -1,0 +1,6 @@
+﻿  test.cpp
+D:\Desktop\Test Project\Test Project\test.cpp(14,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Desktop\Test Project\Test Project\test.cpp(30,2): warning C4002: too many arguments for function-like macro invocation 'EXPECT_STREQ'
+D:\Desktop\Test Project\Test Project\test.cpp(35,2): warning C4002: too many arguments for function-like macro invocation 'EXPECT_STREQ'
+D:\Desktop\Test Project\Test Project\test.cpp(45,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Test Project.vcxproj -> D:\Desktop\Test Project\Debug\Test Project.exe

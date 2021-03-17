@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="2" disabled="0" errors="0" timestamp="2021-03-17T16:13:22" time="0.01" name="AllTests">
+  <testsuite name="NewTest" tests="9" failures="2" disabled="0" errors="0" time="0.006">
+    <testcase name="EqualTest" status="run" time="0" classname="NewTest" />
+    <testcase name="BinaryGreater" status="run" time="0" classname="NewTest" />
+    <testcase name="BinaryNotGreater" status="run" time="0" classname="NewTest" />
+    <testcase name="BinaryNotGreaterExpFalse" status="run" time="0" classname="NewTest" />
+    <testcase name="StringComparison" status="run" time="0" classname="NewTest" />
+    <testcase name="StringComparisonCase" status="run" time="0.001" classname="NewTest">
+      <failure message="D:\Desktop\Test Project\Test Project\test.cpp:35&#x0A;Expected equality of these values:&#x0A;  &quot;Yes&quot;&#x0A;  &quot;yes&quot;" type=""><![CDATA[D:\Desktop\Test Project\Test Project\test.cpp:35
+Expected equality of these values:
+  "Yes"
+  "yes"]]></failure>
+    </testcase>
+    <testcase name="StringComparisonFalse" status="run" time="0.001" classname="NewTest">
+      <failure message="D:\Desktop\Test Project\Test Project\test.cpp:40&#x0A;Expected equality of these values:&#x0A;  &quot;yes&quot;&#x0A;  &quot;no&quot;" type=""><![CDATA[D:\Desktop\Test Project\Test Project\test.cpp:40
+Expected equality of these values:
+  "yes"
+  "no"]]></failure>
+    </testcase>
+    <testcase name="MathTest" status="run" time="0" classname="NewTest" />
+    <testcase name="IterativeTest" status="run" time="0" classname="NewTest" />
+  </testsuite>
+</testsuites>
